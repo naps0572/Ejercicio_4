@@ -4,33 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 4</title>
+    <style>
+        body {
+            background-color: #f0f0f5;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+        .band-container {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+        .band-container img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .band-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #1a1a1a;
+        }
+        .band-info {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .band-album {
+            font-size: 16px;
+            font-style: italic;
+            color: #555;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div>Bandas:</div>
+    <h1>Bandas</h1>
 
     <!-- The Beatles -->
-    <div>The Beatles - Rock / Pop</div>
-    <div><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT87-U4TgZ9eRrzm-ClwxT__FEho66raFgv9VHOX_Ht0oRZOZiJ" alt="The Beatles"></div>
-    <div>The Beatles, más conocido en el mundo hispano como los Beatles, fue una banda de rock británico formada en Liverpool durante los años 1960. Son considerados uno de los íconos culturales más grandes del siglo XX.</div>
-    <div>Álbum más escuchado: Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)</div>
+    <div class="band-container">
+        <div class="band-title">The Beatles - Rock / Pop</div>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT87-U4TgZ9eRrzm-ClwxT__FEho66raFgv9VHOX_Ht0oRZOZiJ" alt="The Beatles">
+        <div class="band-info">The Beatles, más conocido en el mundo hispano como los Beatles, fue una banda de rock británico formada en Liverpool durante los años 1960. Son considerados uno de los íconos culturales más grandes del siglo XX.</div>
+        <div class="band-album">Álbum más escuchado: Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)</div>
+    </div>
 
     <!-- Queen -->
-    <div>Queen - Rock</div>
-    <div><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSMwM_nvkiCoBPKWs83b82jgTqkW1ilKwU7GQK2cJIvPivd99xC" alt="Queen"></div>
-    <div>Queen es una banda británica de rock formada en 1970 en Londres. Es una de las bandas más icónicas y exitosas de todos los tiempos, conocida por su estilo musical diverso y las poderosas voces de Freddie Mercury.</div>
-    <div>Álbum más escuchado: A Night at the Opera</div>
+    <div class="band-container">
+        <div class="band-title">Queen - Rock</div>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSMwM_nvkiCoBPKWs83b82jgTqkW1ilKwU7GQK2cJIvPivd99xC" alt="Queen">
+        <div class="band-info">Queen es una banda británica de rock formada en 1970 en Londres. Es una de las bandas más icónicas y exitosas de todos los tiempos, conocida por su estilo musical diverso y las poderosas voces de Freddie Mercury.</div>
+        <div class="band-album">Álbum más escuchado: A Night at the Opera</div>
+    </div>
 
     <!-- Coldplay -->
-    <div>Coldplay - Rock Alternativo</div>
-    <div><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRAH8rfpGxfDpdosgdQiBVzAXTf4k1zej6KINdJh5kmEsmtCPuTqLEw0v2mkkUYnnHHgcRUcNE4gsiimteg_V9vO-huBlAQUqM7NW1wfA" alt="Coldplay"></div>
-    <div>Coldplay es una banda británica de rock alternativo formada en Londres en 1996. Es conocida por su estilo melódico y lírico, así como por su impacto global con hits como "Yellow" y "Viva La Vida".</div>
-    <div>Álbum más escuchado: A Rush of Blood to the Head</div>
+    <div class="band-container">
+        <div class="band-title">Coldplay - Rock Alternativo</div>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRAH8rfpGxfDpdosgdQiBVzAXTf4k1zej6KINdJh5kmEsmtCPuTqLEw0v2mkkUYnnHHgcRUcNE4gsiimteg_V9vO-huBlAQUqM7NW1wfA" alt="Coldplay">
+        <div class="band-info">Coldplay es una banda británica de rock alternativo formada en Londres en 1996. Es conocida por su estilo melódico y lírico, así como por su impacto global con hits como "Yellow" y "Viva La Vida".</div>
+        <div class="band-album">Álbum más escuchado: A Rush of Blood to the Head</div>
+    </div>
 
     <!-- Muse -->
-    <div>Muse - Rock Alternativo</div>
-    <div><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTAoYX9nSeUKeme_iSl7iT9p4Ulu9lsgmgk3K0-EF9go9g7z_zkqbh_a8K6GbyDjF_EWhHVDOFbpvo7u7AXkg9Z0hBHUYHN6JnD5dXHMw" alt="Muse"></div>
-    <div>Muse es una banda británica de rock alternativo formada en 1994 en Teignmouth, Devon. Su estilo es una mezcla de rock progresivo, música electrónica y otros géneros, con actuaciones en vivo muy enérgicas.</div>
-    <div>Álbum más escuchado: Black Holes and Revelations</div>
+    <div class="band-container">
+        <div class="band-title">Muse - Rock Alternativo</div>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTAoYX9nSeUKeme_iSl7iT9p4Ulu9lsgmgk3K0-EF9go9g7z_zkqbh_a8K6GbyDjF_EWhHVDOFbpvo7u7AXkg9Z0hBHUYHN6JnD5dXHMw" alt="Muse">
+        <div class="band-info">Muse es una banda británica de rock alternativo formada en 1994 en Teignmouth, Devon. Su estilo es una mezcla de rock progresivo, música electrónica y otros géneros, con actuaciones en vivo muy enérgicas.</div>
+        <div class="band-album">Álbum más escuchado: Black Holes and Revelations</div>
+    </div>
 
 </body>
 </html>
+
